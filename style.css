@@ -29,17 +29,26 @@ body {
 
 .wrapper {  
     max-width: 700px;
+    margin-bottom: 45px;
 }
   
 .round { 
     width: 200px;   
     overflow: hidden;   
-    margin-right: 2rem;
-    border-radius: 50%; 
+    border-radius: 50%;
     text-align: center; 
     font-size: 30px; 
-    float: left;   
-    shape-outside: circle();   
+    shape-outside: circle();   /* La propriété shape-outside définit une forme (qui peut ne pas être un rectangle) autour de laquelle le contenu en ligne devra « s'écouler ». */
+}
+
+.round.one {
+    margin-right: 2rem;
+    float: left; 
+}
+
+.round.two {
+    margin-left: 2rem;
+    float: right;
 }
 
 p {
