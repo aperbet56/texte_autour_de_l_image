@@ -1,5 +1,7 @@
 ## TEXTE AUTOUR DE L'IMAGE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création du projet : texte autour de l'image en HTML5 ET CSS3.
